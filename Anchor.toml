@@ -1,0 +1,19 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+solana_usdc_raffle = "13QmbYDBfKwkd8hQLaExkPK4EpDg6ykNMG9QLhCU5vBF"
+
+[programs.devnet]
+solana_usdc_raffle = "Emh7UKzAX4BZY8tF7fmPecQ2p56DKYkaND19MfNf7FX5"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/rrr/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
