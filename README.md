@@ -1,6 +1,6 @@
 # Get Start
 
-##Build Contract
+## Build Contract
 
   anchor build
 
